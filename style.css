@@ -1,0 +1,173 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url(img/pattern.png);
+}
+
+nav {
+  width: 180px;
+}
+
+.barra {
+  display: flex;
+  justify-content: space-around;
+  background-color: #a593c2;
+}
+
+.principal {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.white-words {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.logo-img {
+  height: 200px;
+  width: 200px;
+}
+
+h1 {
+  color: transparent;
+  font-size: 5px;
+}
+
+.segunda-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.browse {
+  font-size: 20px;
+}
+
+.rectangulo-rojo {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.list-pies {
+  background-color: #cf4522;
+  padding-top: 5px;
+
+  margin-top: 4px;
+  color: white;
+  width: 150px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-welcome {
+  color: #a593c2;
+  font-size: 25px;
+}
+
+.bethany-picture {
+  height: 200px;
+  width: 350px;
+}
+
+figure {
+  margin: 0px;
+}
+.cuarta-section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.price {
+  margin: 0px;
+}
+
+.cheesecake-img {
+  height: 200px;
+  width: 330px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.our-address {
+  font-size: 13px;
+}
+
+.direccion {
+  font-size: 13px;
+}
+
+.copyright {
+  font-size: 9px;
+}
+
+.created-by {
+  font-size: 11px;
+}
+
+@media (min-width: 600px) {
+  .barra {
+    display: flex;
+    justify-content: start;
+  }
+
+  .pc-size {
+    display: flex;
+  }
+
+  /* left part */
+  .first-half {
+    width: 30%;
+  }
+
+  .browse {
+    font-size: 15px;
+  }
+
+  .list-pies {
+    width: 220px;
+    height: 35px;
+  }
+
+  /* right part */
+  .second-half {
+    width: 70%;
+    margin: 10px;
+  }
+
+  .bethany-picture {
+    width: 450px;
+  }
+
+  .cuarta-section {
+    background-color: transparent;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .our-address,
+  .direccion,
+  .copyright,
+  .created-by,
+  .contacto {
+    margin: 4px;
+  }
+}
