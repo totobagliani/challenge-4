@@ -6,6 +6,11 @@ body {
   background-image: url(img/pattern.png);
 }
 
+h1 {
+  color: transparent;
+  font-size: 0px;
+}
+
 nav {
   width: 180px;
 }
